@@ -1,0 +1,60 @@
+<html>
+   <head>
+     <title>Nearpod Redirector</title>  
+	 <link rel="stylesheet" href="./index.css">
+	 <style>
+		form {
+  			margin: auto;
+  			text-align: center;
+  			text-decoration: none;
+  			margin-top: 300px;
+		}
+          
+		input[type=text] {
+  			background: #ffffff;
+  			border: none;
+  			border-radius: 4px;
+  			box-shadow: 0 0 0 1px rgba(74,144,226, 1), 0 4px 8px 0 rgba(0,0,0, .05);
+  			color: #5b6d79;
+			padding: 15px 20px;
+			font-family: 'avenirmedium', Helvetica, Arial, sans-serif;
+			font-size: 24px;
+			line-height: 32px;
+			margin-bottom: 10px;
+			transition: box-shadow 180ms ease-in-out;
+			text-align: center;
+		}
+
+		input[type=text]:focus {
+			box-shadow: 0 0 5px 5px rgba(74,144,226, 1), 0 4px 8px 0 rgba(0,0,0, .05);
+			border: none;
+			border-radius: 4px;
+			outline: none;
+			
+		}
+
+		input[type=submit] {
+			background-color: #00a8ff;
+			border: 1px solid #00a8ff;
+			border-radius: 4px;
+			font-family: 'avenirmedium', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #ffffff;
+			padding: 13px 50px;
+			transition: box-shadow 180ms ease-in-out;
+		}
+
+		input[type=submit]:hover{
+			background-color: #59b9ff;
+			border: 1px solid #59b9ff;
+		}
+	</style>
+   	</head>
+
+    <body>
+     <form method="GET" action="/"> 
+	 	<input type="text" name="query" placeholder="Code"> <br>
+       	<input type="submit" value="Submit"/>  
+     </form>    
+    </body>    
+</html>
